@@ -1,4 +1,4 @@
-**# 이화여자대학교 2025 spring capstone design project – [TETS]**
+## 이화여자대학교 2025 spring capstone design project – [TETS]
 
 본 레포지토리는 2025년 spring 이화여자대학교 컴퓨터공학과 캡스톤 디자인 프로젝트로 진행한 **[TETS]**의 소스코드와 자료를 정리한 공간입니다.
 
