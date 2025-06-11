@@ -20,7 +20,7 @@
 
 └── README.md # 레포지토리 소개 파일
 
-impulse-detector/
+TETS/
 ├── backend/  # FastAPI 백엔드 API 서버
 │   ├── app/
 │   │   ├── main.py            # FastAPI 서버 진입점
