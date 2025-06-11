@@ -53,3 +53,6 @@ TETS/
 │
 └── README.md           
 '''
+
+
+<pre> impulse-detector/ ├── backend/ # FastAPI 백엔드 API 서버 │ ├── app/ │ │ ├── main.py # FastAPI 엔트리포인트 │ │ ├── routes/ # API 라우팅 (예: /score, /parse) │ │ ├── services/ # 점수 계산, 알림 파싱 등 비즈니스 로직 │ │ ├── models/ # Pydantic 모델 정의 │ │ └── config.py # 사용자 설정 및 시간대 기준 등 │ └── requirements.txt │ ├── frontend/ # Android 앱 (Java/Kotlin or Flutter) │ ├── app/ │ │ ├── ui/ # 화면 구성 │ │ ├── api/ # 백엔드 연동 │ │ └── utils/ # 알림 수신, 시간대 감지 등 │ └── build.gradle (또는 pubspec.yaml) │ ├── dataset/ # 샘플 데이터 및 테스트셋 │ ├── sample_notifications.csv │ └── category_mapping.json │ ├── models/ # 머신러닝 모델 코드 및 저장 파일 │ ├── rule_based/ # Rule 로직 (예: scoring.py) │ ├── ml/ # ML 모델 학습/추론 코드 │ └── trained_models/ # 저장된 모델 (joblib, pkl 등) │ ├── docs/ # 발표자료, API 명세, 설계 문서 │ ├── architecture.md │ ├── impulse_flowchart.png │ └── API_SPEC.md │ └── README.md # 프로젝트 소개 및 실행법 </pre>
