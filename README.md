@@ -29,7 +29,6 @@
 │   └── category_mapping.json
 │
 ├── models/ # AI/ML 모델 관련 코드 및 결과
-│   ├── rule_based/            # rule 로직 (scoring.py 등)
 │   ├── ml/                    # ML 모델 학습/추론 코드
 │   └── trained_models/        # pkl, joblib 등 저장된 모델
 │
