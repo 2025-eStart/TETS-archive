@@ -1,6 +1,11 @@
 package com.example.impulsecoachapp.ui.navigation
 
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -25,7 +30,7 @@ fun AppNavHost(
     )
     NavHost(
         navController = navController,
-        startDestination = BottomTab.Chat.name
+        startDestination = BottomTab.Report.name
     ) {
         composable(BottomTab.Game.name) {
             GameScreen(
@@ -46,6 +51,12 @@ fun AppNavHost(
                 onTabSelected = onTabSelected,
                 navController = navController
             )
+        }
+        // 2. ViewModel을 사용하지 않는 테스트용 코드를 임시로 추가합니다.
+        composable(BottomTab.AltBehavior.name) {
+            Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                Text("대체 행동 테스트 화면")
+            }
         }
         composable(BottomTab.Report.name) {
             ReportScreen(
