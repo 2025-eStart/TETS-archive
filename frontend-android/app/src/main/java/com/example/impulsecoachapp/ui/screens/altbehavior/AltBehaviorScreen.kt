@@ -1,3 +1,6 @@
+// 이 파일은 앱의 모든 화면(Screen)들을 등록하고, 어떤 경로(route)로 각 화면에 접근할지를 정의하는 교통 관제탑
+// 사용자가 홈 화면에서 버튼을 누르거나, 다른 화면에서 특정 동작을 했을 때 특정 화면으로 이동시키는 흐름을 만들려면 반드시 이곳에 등록해야 함.
+
 package com.example.impulsecoachapp.ui.screens.altbehavior
 
 import android.util.Log // ✅ Log import 추가

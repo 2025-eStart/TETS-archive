@@ -52,12 +52,6 @@ fun AppNavHost(
                 navController = navController
             )
         }
-        // 2. ViewModel을 사용하지 않는 테스트용 코드를 임시로 추가합니다.
-        composable(BottomTab.AltBehavior.name) {
-            Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                Text("대체 행동 테스트 화면")
-            }
-        }
         composable(BottomTab.Report.name) {
             ReportScreen(
                 selectedTab = BottomTab.Report,
