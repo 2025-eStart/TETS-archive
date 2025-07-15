@@ -62,6 +62,11 @@ dependencies {
     implementation(libs.firebase.auth)
     implementation(platform(libs.firebase.bom))
 
+    //Retrofit
+    implementation(libs.square.retrofit)
+    implementation(libs.square.converter.gson)
+    implementation(libs.kotlinx.coroutines.android)
+
     //Testing
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

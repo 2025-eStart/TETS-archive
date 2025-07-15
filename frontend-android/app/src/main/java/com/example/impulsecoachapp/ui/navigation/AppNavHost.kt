@@ -1,15 +1,10 @@
 package com.example.impulsecoachapp.ui.navigation
 
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.example.impulsecoachapp.model.chat.ChatMessage
+import com.example.impulsecoachapp.data.model.chat.ChatMessage
 import com.example.impulsecoachapp.ui.components.BottomTab
 import com.example.impulsecoachapp.ui.screens.altbehavior.AltBehaviorScreen
 import com.example.impulsecoachapp.ui.screens.chat.ChatScreen

@@ -2,14 +2,14 @@ package com.example.impulsecoachapp.ui.screens.chat
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.impulsecoachapp.model.chat.ChatMessage
+import com.example.impulsecoachapp.data.model.chat.ChatMessage
+import com.example.impulsecoachapp.data.repository.ActualChatRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
-import kotlin.collections.toMutableList
 
 class ChatViewModel(
-    private val repository: ChatRepository = DummyChatRepository() // 나중에 실제 구현체로 교체
+    private val repository: ChatRepository = ActualChatRepository() // actual or dummychat, 추후에는 Hilt 같은 의존성 주입으로 더 우아하게 관리할 수 있다
 ) : ViewModel() {
 
     private val _messages = MutableStateFlow<List<ChatMessage>>(emptyList())

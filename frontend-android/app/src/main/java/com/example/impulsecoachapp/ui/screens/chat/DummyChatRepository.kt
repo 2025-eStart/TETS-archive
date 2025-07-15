@@ -1,6 +1,6 @@
 package com.example.impulsecoachapp.ui.screens.chat
 
-import com.example.impulsecoachapp.model.chat.ChatMessage
+import com.example.impulsecoachapp.data.model.chat.ChatMessage
 import kotlinx.coroutines.delay
 
 ////////////////// API 연동 없는 버전 //////////////////
