@@ -1,4 +1,4 @@
-package com.example.impulsecoachapp.viewmodel
+package com.example.impulsecoachapp.viewmodels
 
 import android.util.Log // ✅ Log import 추가
 import androidx.compose.runtime.getValue
